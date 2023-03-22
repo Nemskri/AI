@@ -1,0 +1,23 @@
+:root {
+    --main-color: #362034;
+    --main-border: 1px solid black;
+    --accent-color: rgb(102, 40, 79);
+
+}
+
+* {
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    text-align: center;
+    background-color: var(--main-color);
+    height: 100%;
+    width: 100vw;
+    color: white;
+}

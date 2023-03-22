@@ -1,0 +1,78 @@
+.art {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(236, 167, 222);
+}
+
+.window {
+    height: 500px;
+    width: 600px;
+    background-color: rgb(46, 37, 43);
+    border: 10px solid rgb(236, 167, 222);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-input {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(235, 191, 223);
+    border: none;
+    padding: 1rem;
+    outline: none;
+    box-shadow: 0 0 8px 0 rgb(11, 10, 11);
+}
+
+.art-form {
+    width: 80vw;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.art-btn {
+    background: transparent;
+    color: rgb(236, 167, 222);
+    font-size: 0.8rem;
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    font-weight: 200;
+    margin-top: 15px;
+    border: none;
+    transition: 0.25s;
+}
+
+.art-btn:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+.artimg {
+    height: 500px;
+    width: 600px;
+}
+
+.res {
+    width: 150px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgb(236, 167, 222);
+}
+
+.res option {
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
