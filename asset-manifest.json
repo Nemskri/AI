@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AI.git/static/css/main.1ce3fcde.css",
+    "main.js": "/AI.git/static/js/main.53fe5ee4.js",
+    "index.html": "/AI.git/index.html",
+    "main.1ce3fcde.css.map": "/AI.git/static/css/main.1ce3fcde.css.map",
+    "main.53fe5ee4.js.map": "/AI.git/static/js/main.53fe5ee4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ce3fcde.css",
+    "static/js/main.53fe5ee4.js"
+  ]
+}
