@@ -31,7 +31,7 @@ export const AppProvider = ({ children }) => {
     ///Experimental///
     const configuration = new Configuration({
         organization: "org-AMndm5kuAyM5roeGXA19K4yH",
-        apiKey: "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",
+        apiKey: "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",
     });
 
     const openai = new OpenAIApi(configuration);

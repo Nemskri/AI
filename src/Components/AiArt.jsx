@@ -8,7 +8,7 @@ function AiArt() {
 
     const config = new Configuration(
         {
-            apiKey: "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"
+            apiKey: "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"
         }
     )
 

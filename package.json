@@ -2,7 +2,7 @@
   "name": "cgptclient",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nemskri.github.io/AI.git",
+  "homepage": "http://nemskri.github.io/AI",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -10,7 +10,6 @@
     "axios": "^1.3.4",
     "dotenv": "^16.0.3",
     "express-async-errors": "^3.1.1",
-    "gh-pages": "^5.0.0",
     "openai": "^3.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -43,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

@@ -14,7 +14,7 @@ function App() {
       <SideMenu />
       {art ? <AiArt /> : <Chatbox />}
     </div>
-  );
+  )
 }
 
 export default App;
