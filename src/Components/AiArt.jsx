@@ -8,7 +8,7 @@ function AiArt() {
 
     const config = new Configuration(
         {
-            apiKey: "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"
+            apiKey: "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"
         }
     )
 
@@ -36,7 +36,7 @@ function AiArt() {
 
 
     return <div className="art">
-        <div className="info">This AI generates Art based on the text you Enter.</div>
+        <div className="info">This AI fetches Image based on the text you Enter.</div>
         <div className="window">
             {artUrl && <img src={artUrl} className="artimg" />}
             {loading && <h1>AI is working on your Image</h1>}
